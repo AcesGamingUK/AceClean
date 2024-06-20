@@ -1,0 +1,58 @@
+/**
+ * @name AceClean
+ * @author AcesGamingUK
+ * @description Simple Clean Theme
+ * @version 0.0.1
+ * @import url("
+ * @updateUrl 
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500&display=swap')
+
+:root {
+
+    /*------------------ Background ------------------*/
+    --background-primary: var(--BBG);
+    --background-secondary: var(--BBG);
+    --background-secondary-alt: var(--BBG);
+    --background-tertiary: var(--BBG);
+    --channeltextarea-background: var(--BBG);
+    --background-floating: var(--BBG);
+
+	/*------------------ Font (CyberPunk) ------------------*/
+    --font-primary: 'Rajdhani'; /* Font */
+
+    /*------------------ colors ------------------*/
+    --text-normal: rgb(255, 255, 255);
+        	/* Channel and category colors */
+    --channels-default: white;
+    --channels-muted: rgb(61, 61, 61);
+    --channels-hover: green;
+}
+
+
+/* Style the toggle button */
+.chat-toggle-button {
+    background-color: var(--interactive-normal);
+    border: none;
+    color: var(--text-normal);
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+/* Style the icon container */
+.chat-icon-container {
+    display: none;
+    flex-direction: row;
+    align-items: center;
+}
+
+.chat-icon-container.expanded {
+    display: flex;
+}
+
+/* Style the icons inside the container */
+.chat-icon-container > * {
+    margin-right: 5px;
+}
