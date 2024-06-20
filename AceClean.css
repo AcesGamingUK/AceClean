@@ -7,10 +7,13 @@
  * @updateUrl 
  */
 
-/*@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500&display=swap')*/
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500&display=swap')
 
 :root {
 
+    /* Custom Variables */
+    --BBG: rgb(15, 15, 15); /* Black-ish */
+	
     /*------------------ Background ------------------*/
     --background-primary: var(--BBG);
     --background-secondary: var(--BBG);
