@@ -31,3 +31,9 @@
     --channels-muted: rgb(61, 61, 61);
     --channels-hover: green;
 }
+.form_a7d72e {
+    height: 40px; /* Adjust this value to your preferred height */
+    width: auto; /* Adjust this value if you need a specific width */
+    padding: 5px; /* Adjust padding as needed */
+    font-size: 14px; /* Adjust font size if necessary */
+}
