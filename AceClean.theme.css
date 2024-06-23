@@ -2,13 +2,13 @@
  * @name AceClean
  * @version 0.0.7
  * @description Simple Clean Theme
- * @github https://github.com/Strencher/BetterDiscordStuff/blob/master/PlatformIndicators/APlatformIndicators.plugin.js
- * @github_raw https://raw.githubusercontent.com/Strencher/BetterDiscordStuff/master/PlatformIndicators/APlatformIndicators.plugin.js
+ * @github https://github.com/AcesGamingUK/AceClean/blob/main/AceClean.theme.css
+ * @github_raw https://raw.githubusercontent.com/AcesGamingUK/AceClean/main/AceClean.theme.css
  * @author AcesGamingUK
- * 
  * @import url("https://acesgaminguk.github.io/AceClean/AceClean.css")
  * @updateUrl 
  */
+'use strict';
 
 /* @module @manifest */
 const manifest = {
@@ -16,53 +16,34 @@ const manifest = {
     "version": "0.0.7",
     "authors": [{
         "name": "AcesGamingUk",
-        "discord_id": "415849376598982656",
-        "github_username": "Strencher",
-        "twitter_username": "Strencher3"
+        "discord_id": "179230480560947200",
+        "github_username": "AcesGamingUk"
     }],
-    "description": "Adds indicators for every platform that the user is using.",
-    "github": "https://github.com/Strencher/BetterDiscordStuff/blob/master/PlatformIndicators/APlatformIndicators.plugin.js",
-    "github_raw": "https://raw.githubusercontent.com/Strencher/BetterDiscordStuff/master/PlatformIndicators/APlatformIndicators.plugin.js",
-    "invite": "gvA2ree",
-    "changelogImage": "https://cdn.discordapp.com/attachments/672786846018961418/1053059354552696932/20th-century-fox-intro.png",
-    "changelogDate": "2024-02-04T16:25:00.000Z",
-    "changelog": [{
-        "title": "Fixes",
-        "type": "fixed",
-        "items": [
-            "Plugin works again (Thanks zrodevkaan)"
-        ]
-    }]
+    "description": "Simple Clean Theme.",
+    "github": "https://github.com/AcesGamingUK/AceClean/blob/main/AceClean.theme.css",
+    "github_raw": "https://raw.githubusercontent.com/AcesGamingUK/AceClean/main/AceClean.theme.css"
 };
 
 /*@end */
+        
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500&display=swap');
-
-:root {
-/*------------------ Custom Variables ------------------*/
-    --BBG: rgb(15, 15, 15); /* Black-ish */
-
-/*------------------ Background ------------------*/
-    --background-primary: var(--BBG);
-    --background-secondary: var(--BBG);
-    --background-secondary-alt: var(--BBG);
-    --background-tertiary: var(--BBG);
-    --channeltextarea-background: var(--BBG);
-    --background-floating: var(--BBG);
-
-/*------------------ Font (CyberPunk) ------------------*/
+        
+:root{
+    /*------------------ Font (CyberPunk) ------------------*/
     --font-primary: 'Rajdhani'; /* Font */
-
-/*------------------ colors ------------------*/
-    --text-normal: rgb(255, 255, 255);
-        	/* Channel and category colors */
-    --channels-default: white;
+    /* Channel and category colors */
+    --channels-default: rgb(156, 145, 119);
     --channels-muted: rgb(61, 61, 61);
     --channels-hover: green;
 }
-.form_a7d72e {
-    height: 40px; /* Adjust this value to your preferred height */
-    width: auto; /* Adjust this value if you need a specific width */
-    padding: 5px; /* Adjust padding as needed */
-    font-size: 14px; /* Adjust font size if necessary */
+.wrapperCommon_a08117 {
+    color: red;
+}
+
+.icon_d8bfb3 {
+    color: cyan
+}
+
+.modeSelected_d8bfb3 .icon_d8bfb3 {
+    color: yellow
 }
