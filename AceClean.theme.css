@@ -11,12 +11,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500&display=swap');
         
 :root{
-    /*------------------ Font (CyberPunk) ------------------*/
-    --font-primary: 'Rajdhani'; /* Font */
-    /* Channel and category colors */
-    --channels-default: rgb(156, 145, 119);
-    --channels-muted: rgb(61, 61, 61);
-    --channels-hover: green;
+/*------------------ Font (CyberPunk) ------------------*/
+        --font-primary: 'Rajdhani'; /* Font */
+/*------------------ Channel and category colors ------------------*/
+        --channels-default: rgb(156, 145, 119);
+        --channels-muted: rgb(61, 61, 61);
+        --channels-hover: green;
+/*------------------ Edits ------------------*/
+        --Chatbox-Gift-Button: none;						/* flex = ON, none = OFF */
+        --Chatbox-GIF-Button: none;						/* flex = ON, none = OFF */
+	--Chatbox-Stickers-Button: none;					/* flex = ON, none = OFF */
 }
 .wrapperCommon_a08117 {
     color: red;
