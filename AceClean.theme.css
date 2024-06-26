@@ -22,14 +22,17 @@
         --Chatbox-GIF-Button: none;						/* flex = ON, none = OFF */
 	--Chatbox-Stickers-Button: none;					/* flex = ON, none = OFF */
 }
+/* Expand and plus buttons */
 .wrapperCommon_a08117 {
     color: red;
 }
-
+/* Channel icons */
 .icon_d8bfb3 {
     color: cyan
 }
-
+/* Channel Icons Selected */
 .modeSelected_d8bfb3 .icon_d8bfb3 {
     color: yellow
 }
+/* Channel Icons Hover */
+--channels-default: rgb(245,0,0);
