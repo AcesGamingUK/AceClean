@@ -18,6 +18,7 @@
         --channels-muted: rgb(61, 61, 61); /* Slate Gray */
         --channels-hover: green;
 	--background-mentioned-hover: red;
+	--text-normal: rgb(144, 220, 243);
 /*------------------ Edits ------------------*/
         --Chatbox-Gift-Button: none;						/* flex = ON, none = OFF */
         --Chatbox-GIF-Button: none;						/* flex = ON, none = OFF */
